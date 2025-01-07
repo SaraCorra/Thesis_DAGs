@@ -13,7 +13,9 @@ To assess the performance of these algorithms, I employed diagnostic measures, i
 
 In the practical application, I turned to gene network reconstruction, focusing on the CD28 pathway in patients with early diffuse systemic sclerosis (dcSSc). Drawing from a clinical trial conducted in 2022, which investigated the effects of abatacept versus placebo, I analyzed RNA-seq data and clinical severity scores, such as the modified Rodnan skin score (mRSS). Using the trial's findings, I estimated posterior probabilities of gene interactions. By comparing the network dependencies under abatacept treatment and placebo, I hypothesized that abatacept alters the connectivity of the pathway, potentially increasing specific dependencies as part of its therapeutic mechanism. The final results are displayed below:
 
-![NET_placebo](Figures/Application/analysis/net_BD_placebo.png)
-![NET_treaet](Figures/Application/analysis/net_BD_treat.png)
+<p align="center">
+  <img src="Figures/Application/analysis/net_BD_placebo.png" alt="NET_placebo" width="35%" style="margin-right: 10px;">
+  <img src="Figures/Application/analysis/net_BD_treat.png" alt="NET_treat" width="35%">
+</p>
 
 This application reflects the broader context of precision medicine, where understanding molecular pathways such as CD28 is crucial for identifying patient subgroups most likely to benefit from targeted therapies. By combining methodological advancements with a real-world biomedical challenge, the thesis bridges computational innovation with clinical insights, contributing to both algorithmic development and the understanding of immune modulation in systemic sclerosis.
